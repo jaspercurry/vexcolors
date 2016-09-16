@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  country: MyString
+  description: MyString
+  num_of_colors: 1
+  img_url: MyString
+
+two:
+  country: MyString
+  description: MyString
+  num_of_colors: 1
+  img_url: MyString
