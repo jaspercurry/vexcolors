@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  namespace :api do
+    namespace :v1 do
+      resources :flags #localhost:3000/api/v1/flags
+      resources :colors #localhost:3000/api/v1/colors
+    end
+  end
 end
